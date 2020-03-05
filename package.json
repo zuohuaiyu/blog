@@ -1,0 +1,24 @@
+{
+  "name": "huaiyu-zuo",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "authors": {
+    "name": "ZuoHuaiyu",
+    "email": "huaiyu.zuo@foxmail.com"
+  },
+  "scripts": {
+    "dev": "vuepress dev blog --open --no-clear-screen",
+    "build": "vuepress build blog",
+    "deploy": "bash deploy.sh"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@vuepress/plugin-google-analytics": "^1.0.0-rc.1",
+    "@vuepress/theme-blog": "^2.1.0",
+    "vuepress": "^1.0.0"
+  },
+  "dependencies": {
+    "vue-switches": "^2.0.1"
+  }
+}
