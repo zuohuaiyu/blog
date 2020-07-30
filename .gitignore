@@ -13,3 +13,4 @@ basement_dist
 /.vscode
 deploy.sh
 yarn.lock
+vuepress notes.txt
