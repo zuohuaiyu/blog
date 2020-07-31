@@ -20,27 +20,27 @@ module.exports = (options, context, api) => {
           path: "/en/",
           itemPermalink: "/en/:year/:month/:day/:slug",
         },
-        {
+        /* {
           id: "tag",
           dirname: "_tag",
           title: "",
           path: "/tag/",
           itemPermalink: "/tag/:year/:month/:day/:slug",
-        },
+        }, */
       ],
       nav: [
         {
           text: "碎碎念",
           link: "/zh/",
         },
-        {
+        /* {
           text: "Blog",
           link: "/en/",
         },
         {
           text: "Tags",
           link: "/tag/",
-        },
+        }, */
         {
           text: "Github",
           link: "https://github.com/zuohuaiyu",
