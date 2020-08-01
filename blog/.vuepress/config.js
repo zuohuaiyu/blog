@@ -37,10 +37,11 @@ module.exports = (options, context, api) => {
           text: "Blog",
           link: "/en/",
         },
+        */
         {
           text: "Tags",
           link: "/tag/",
-        }, */
+        }, 
         {
           text: "Github",
           link: "https://github.com/zuohuaiyu",
